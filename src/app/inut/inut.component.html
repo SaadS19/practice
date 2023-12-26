@@ -1,0 +1,6 @@
+<input type="text" [(ngModel)]="name" />
+<p>{{ name }}</p>
+<button class="btn btn-primary" (click)="submitInput()">Add Input</button>
+<p *ngFor="let item of array">
+  {{ item }}
+</p>
